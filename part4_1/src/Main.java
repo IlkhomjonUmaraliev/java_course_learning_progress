@@ -1,3 +1,6 @@
+/**
+ * Created by dev on 23/04/2023
+ */
 public class Main {
     public static void main(String[] args) {
 
@@ -17,5 +20,12 @@ public class Main {
 
         Streaming blankSpace = new Streaming("Taylor Swift", "Blank Space");
         blankSpace.getString();
+
+        /**
+         * CAR CLASS
+         */
+
+        Car fordMustang = new Car();
+
     }
 }
