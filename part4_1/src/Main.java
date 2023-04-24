@@ -18,14 +18,53 @@ public class Main {
         */
 
 
-        Streaming blankSpace = new Streaming("Taylor Swift", "Blank Space");
-        blankSpace.getString();
+//        Streaming blankSpace = new Streaming("Taylor Swift", "Blank Space");
+//        blankSpace.getString();
+          /**
+          *  CAR CLASS
+          */
 
-        /**
-         * CAR CLASS
-         */
+//        Car fordMustang = new Car();
+//        Car corolla = new Car();
+//        corolla.setModel("Corolla");
+//        System.out.println(corolla.getModel());
+//
+//        fordMustang.setModel("Mustang Ford");
+//        System.out.println(fordMustang.getModel());
 
-        Car fordMustang = new Car();
+          /**
+            * ACCOUNT CLASS
+           */
 
+//          Account anna = new Account(20, 1000, "Anna Walter",
+//                  "annawalter@gmail.com", 12345);
+//
+//          anna.showInfo();
+//
+//          anna.withdraw(100);
+//
+//          anna.showInfo();
+//
+//          Account noName = new Account();
+//
+//          noName.showInfo();
+
+
+//        NEW ACCOUNT
+
+
+//          Account michael = new Account(12, 1000, "Michael");
+//          michael.showInfo();
+
+          // VIP CUSTOMER
+
+        VipCustomer laziza = new VipCustomer();
+        laziza.showInfo();
+
+        VipCustomer mohinur = new VipCustomer("Mokhinur", 1000);
+        mohinur.showInfo();
+
+        VipCustomer sevara = new VipCustomer("Sevara", 100000, "sevara@gmail.com");
+        sevara.showInfo();
     }
 }
